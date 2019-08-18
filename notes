@@ -1,0 +1,12 @@
+Screen 1 Register   input box with submit button
+Screen 2 Password Setup screen 
+Screen 3 Login screen
+
+1. User clicks on the website link
+2. App is launched with the verify route
+3. Webtoken is decoded and verified and broken down into necessary information
+4. user enter the reference code and is send to the validate webservice
+5. Once validation is successfull user is shown the register webpage. 
+
+http://localhost:8100/verify?refToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZW5kb3JJZCI6IjEyMzQiLCJ2ZW5kb3JDdXN0b21lcklkIjoiMTIzNCIsInBob25lTnVtYmVyIjoxNDc5MjUwNTA2OCwiaG9tZVN0b3JlTnVtYmVyIjoiMTIzNCIsImlhdCI6MTU2NTQ2MzMxM30.ikDVPPZZcvTxGkdfEi4wc-gMDCEChoAwRW5L7YseeEQ
+
